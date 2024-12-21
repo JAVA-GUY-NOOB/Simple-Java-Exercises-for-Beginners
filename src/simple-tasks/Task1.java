@@ -1,15 +1,23 @@
 /*
-    Task 1) Output any string mirrored.
- */
+Task 1) Output any string mirrored
+*/
 public class Task1 {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
 
-        String myString = "Das ist ein Test";
+        final String myString = "how are you";
 
-        for (int i = myString.length() - 1; i >= 0 ; i--) {
+        for (int i = (myString.length() - 1); i >= 0; i--) {
             System.out.print(myString.charAt(i));
         }
+        
+    }
 
+    @Override
+    public String toString() {
+        return "Task1 []";
     }
 }
 
