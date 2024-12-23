@@ -1,3 +1,5 @@
+import edu.princeton.cs.introcs.StdDraw;
+
 /**
  * Task 8) Draw on a 500x500 canvas square with the color changing from one corner to the other. At the bottom left the square is black and towards the top right the squares become lighter and lighter.
  */
