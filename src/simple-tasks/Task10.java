@@ -1,3 +1,4 @@
+import edu.princeton.cs.introcs.StdDraw;
 /**
  * Task 10) Draw a number of circles. The outermost circle must be grey and the further inside the darker the circle becomes.
  */
@@ -12,11 +13,11 @@ public class Task10 {
 
 
         StdDraw.setCanvasSize(500, 500);
-        StdDraw.setScale(0, 500);
+        StdDraw.setScale(0.0, 500.0);
 
-        for (int i = 0; i < numberOfCircels; i++, color -= stepsColor, baseRadius -= stepRadius) {
+        for (int i = 0; i < numberOfCircels; i++, color -= stepsColor) {
             StdDraw.setPenColor(color, color, color);
-            StdDraw.filledCircle(250, 250, baseRadius);
+            StdDraw.filledCircle(250, 250, baseRadius -(i*stepRadius));
         }
 
     }

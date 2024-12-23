@@ -1,4 +1,4 @@
-import java.awt.*;
+import edu.princeton.cs.introcs.StdDraw;
 
 /**
     Task 6)  Display the following pattern with StdDraw. Please use a for loop.

@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\360ExtremeBrowserDownload\\stdlib.jar",
+        "c:\\360ExtremeBrowserDownload\\stdlib (1).jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.runtimes": []
+}

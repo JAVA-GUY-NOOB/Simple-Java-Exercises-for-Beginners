@@ -14,6 +14,8 @@ NNNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNN
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
  */
+import edu.princeton.cs.introcs.StdDraw;
+
 public class Task28 {
     public static void main(String[] args) {
 
