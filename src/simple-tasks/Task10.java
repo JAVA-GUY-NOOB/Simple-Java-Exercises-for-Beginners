@@ -3,13 +3,13 @@ import edu.princeton.cs.introcs.StdDraw;
  * Task 10) Draw a number of circles. The outermost circle must be grey and the further inside the darker the circle becomes.
  */
 public class Task10 {
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
-        int numberOfCircels = 7;
+        final int numberOfCircels = 7;
         int color = 235;
-        int stepsColor = color / numberOfCircels;
-        int baseRadius = 500 / 2;
-        int stepRadius = (baseRadius) / numberOfCircels;
+        final int stepsColor = color / numberOfCircels;
+        final int baseRadius = 500 / 2;
+        final int stepRadius = (baseRadius) / numberOfCircels;
 
 
         StdDraw.setCanvasSize(500, 500);
