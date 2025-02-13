@@ -12,7 +12,6 @@ public class Task1 {
         for (int i = (myString.length() - 1); i >= 0; i--) {
             System.out.print(myString.charAt(i));
         }
-        
     }
 
     @Override
@@ -20,4 +19,12 @@ public class Task1 {
         return "Task1 []";
     }
 }
+
+   
+   
+   
+   
+   
+   
+   
 

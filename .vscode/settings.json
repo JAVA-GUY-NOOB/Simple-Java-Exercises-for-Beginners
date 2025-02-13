@@ -5,5 +5,7 @@
         "c:\\360ExtremeBrowserDownload\\stdlib (1).jar"
     ],
     "java.debug.settings.onBuildFailureProceed": true,
-    "java.configuration.runtimes": []
+    "java.configuration.runtimes": [
+        
+    ]
 }

@@ -6,17 +6,17 @@ import java.awt.Color;
 public class Task3 {
     public static void main(String[] args) {
 
-        int squares = 4;
+        int squares = 5;
         int spacing = 20;
 
-        int width = 400;
-        int height = 400;
+        int width = 500;
+        int height = 500;
         StdDraw.setCanvasSize(width, height);
-        StdDraw.setXscale(0, 400);
-        StdDraw.setYscale(0, 400);
+        StdDraw.setXscale(0, 500);
+        StdDraw.setYscale(0, 500);
 
 
-        int widthPerSquare = (width - ((squares + 1) * spacing)) / 4; // jedes Square soll gleich breit sein und soll den selben abstand zwischen sich haben und zum rand
+        int widthPerSquare = (width - ((squares + 1) * spacing)) / 5; // jedes Square soll gleich breit sein und soll den selben abstand zwischen sich haben und zum rand
 
         for (int yPosition = spacing; yPosition < height - spacing; yPosition += widthPerSquare + spacing) {
             for (int i = 0, xPosition = spacing; i < squares; i++, xPosition += widthPerSquare + spacing) {

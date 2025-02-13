@@ -7,17 +7,17 @@ import edu.princeton.cs.introcs.StdDraw;
 public class Task10 {
     public static void main(final String[] args) {
 
-        final int numberOfCircels = 7;
+        final int numberOfCircles = 7;
         int color = 235;
-        final int stepsColor = color / numberOfCircels;
+        final int stepsColor = color / numberOfCircles;
         final int baseRadius = 500 / 2;
-        final int stepRadius = (baseRadius) / numberOfCircels;
+        final int stepRadius = (baseRadius) / numberOfCircles;
 
 
         StdDraw.setCanvasSize(500, 500);
         StdDraw.setScale(0.0, 500.0);
 
-        for (int i = 0; i < numberOfCircels; i++, color -= stepsColor) {
+        for (int i = 0; i < numberOfCircles; i++, color -= stepsColor) {
             StdDraw.setPenColor(color, color, color);
             StdDraw.filledCircle(250, 250, baseRadius -(i*stepRadius));
         }
